@@ -13,7 +13,7 @@ public class ExtentManager extends BasePage {
 	
 	static String reportsFolderPath;
 	
-	public static ExtentReports getReport()
+	public static ExtentReports getReports()
 	{
 		
 		reportsFolderPath=System.getProperty("user.dir")+"\\reports";
@@ -47,7 +47,7 @@ public class ExtentManager extends BasePage {
 		}
 		
 		
-		return null;
+		return reports;
 	}
 
 }
